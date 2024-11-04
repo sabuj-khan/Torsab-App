@@ -11,7 +11,7 @@
                         <h1>Green World<span class="red-dot"></span></h1>
                         <h6>We love our green world.</h6>
                         <p>
-                            <a href="#" class="btn btn-color btn-full">Read More</a>
+                            <a href="{{ asset('/blogPage') }}" class="btn btn-color btn-full">Explore All Blogs</a>
                         </p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                         <h1>Holly Frowers<span class="red-dot"></span></h1>
                         <h6>We love all the flowers.</h6>
                         <p>
-                            <a href="#" class="btn btn-color btn-full">Read More</a>
+                            <a href="{{ asset('/blogPage') }}" class="btn btn-color btn-full">Explore All Blogs</a>
                         </p>
                     </div>
                 </div>
