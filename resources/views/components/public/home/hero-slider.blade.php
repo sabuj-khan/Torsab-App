@@ -24,7 +24,7 @@
                 <div class="slide-content">
                     <div class="container">
                         <h1>Holly Frowers<span class="red-dot"></span></h1>
-                        <h6>We love all flowers.</h6>
+                        <h6>We love all the flowers.</h6>
                         <p>
                             <a href="#" class="btn btn-color btn-full">Read More</a>
                         </p>
