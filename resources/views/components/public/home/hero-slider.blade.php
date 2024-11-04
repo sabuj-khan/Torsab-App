@@ -19,7 +19,7 @@
         </li>
 
         <li>
-            <img src="{{ asset('assets/front/images/bg/2.jpg') }}" alt="">
+            <img src="{{ asset('http://127.0.0.1:8000/uploads/post-img/1-1730731153-4.jpg') }}" alt="">
             <div class="slide-wrap">
                 <div class="slide-content">
                     <div class="container">
