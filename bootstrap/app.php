@@ -11,7 +11,23 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->validateCsrfTokens(except: [
+            'http://127.0.0.1:8000/user-register',
+            'http://127.0.0.1:8000/user-login',
+            'http://127.0.0.1:8000/send-otp',
+            'http://127.0.0.1:8000/verify-otp',
+            'http://127.0.0.1:8000/reset-password',
+            'http://127.0.0.1:8000/user-info-update',
+            'http://127.0.0.1:8000/post-create',
+            'http://127.0.0.1:8000/post-update',
+            'http://127.0.0.1:8000/post-delete',
+            'http://127.0.0.1:8000/category-create',
+            'http://127.0.0.1:8000/category-update',
+            'http://127.0.0.1:8000/category-delete',
+            'http://127.0.0.1:8000/tag-create',
+            'http://127.0.0.1:8000/tag-update',
+            'http://127.0.0.1:8000/tag-delete'
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
